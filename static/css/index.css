@@ -1,0 +1,12 @@
+#title {
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 70vh;
+  width: 90%;
+  padding-top:2rem;
+  padding-bottom:2rem;
+}

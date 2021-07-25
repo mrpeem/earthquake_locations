@@ -1,0 +1,24 @@
+{
+  "name": "earthquake_locations",
+  "version": "1.0.0",
+  "description": "The web page displays the locations of earthquakes around the world on a map, details of the page are as follows: The web page integrates with the https://earthquake.usgs.gov/earthquakes/feed/v1.0/ API to fetch earthquake information in the past 24 hours and displays those location on a responsive Google Maps as a pin. When clicked, it will display the location and date/time in the callout.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrpeem/earthquake_locations.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrpeem/earthquake_locations/issues"
+  },
+  "homepage": "https://github.com/mrpeem/earthquake_locations#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}

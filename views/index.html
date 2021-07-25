@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Earthquake Locations</title>
+
+    <link rel='stylesheet' type='text/css' href='/css/index.css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- jQuery library -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.js"></script> 
+  </head>
+  <body>
+    <center>
+      <h3 id="title">Location of Earthquakes Around the World</h3>
+
+      <!--The div element for the map -->
+      <div id="map"></div>
+    </center>
+
+    <script src="/js/index.js"></script>
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXWVBhci_alIMQVnI3i4yA-tZ_4hyNWo4&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+  </body>
+</html>
